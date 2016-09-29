@@ -1,0 +1,33 @@
+{
+  "name": "rheaditi.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env": "env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rheaditi/rheaditi.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rheaditi/rheaditi.github.io/issues"
+  },
+  "homepage": "https://github.com/rheaditi/rheaditi.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "cssnano": "^3.8.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "^0.8.0",
+    "jshint-stylish": "latest",
+    "pixrem": "^3.0.2"
+  }
+}
