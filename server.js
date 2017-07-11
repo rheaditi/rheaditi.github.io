@@ -6,9 +6,9 @@ var port = process.env.PORT || '1337';
 var	app = express();
 
 /** Serve Static Resources **/
-app.use('/', express.static(path.join(__dirname, '/cv')));
+app.use('/', express.static(path.join(__dirname)));
 
 
 app.listen(port, function() {
-  console.log('Node app running on port ' + port);
-})
+	console.log('Node app running on port ' + port);
+});
