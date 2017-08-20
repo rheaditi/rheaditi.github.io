@@ -1,0 +1,18 @@
+<!doctype html>
+<html amp lang="en">
+  {% capture amp_custom_styles %}{% include main.scss %}{% endcapture %}
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="canonical" href="{{ page.url | prepend:site.url }}">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-custom type="text/css">{{ amp_custom_styles | scssify | strip_newlines }}</style>
+    {% include amp/amp_boilerplate.html %}
+    {% include head_seo_meta.html %}
+    {% include amp/amp_script.html %}
+  </head>
+  <body>
+    {% include amp/amp_custom_font.html %}  
+     {{ content }}
+  </body>
+</html>

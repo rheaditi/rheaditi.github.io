@@ -1,0 +1,10 @@
+body {
+  font-size: $default-font-size;
+  font-family: $default-font-stack;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+
+  .exo-font-loaded & {
+    font-family: $exo-font-stack;
+  }
+}
