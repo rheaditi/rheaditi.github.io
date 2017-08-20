@@ -16,8 +16,12 @@ social:
 ga:
   trackingId: "UA-97738324-1"
 
-profile_image: "/img/aditimohanty.jpeg"
-
+og:
+  image:
+    url: "/img/aditimohanty.jpeg"
+    width: "400"
+    height: "400"
+    mimetype: "image/jpeg"
 # Build settings
 markdown: kramdown
 # plugins:
