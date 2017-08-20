@@ -3,17 +3,76 @@ body {
   font-family: $default-font-stack;
   font-weight: $default-font-weight;
   line-height: $default-line-height;
+  color: $default-font-color;
 
   .exo-font-loaded & {
     font-family: $exo-font-stack;
   }
 }
 
-.center {
+.container {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.t-center {
   text-align: center;
 }
 
+.t-light {
+  font-weight: $font-weight-light;
+}
+
 .center-block {
-  display: inline-block;
+  display: block;
   margin: 0 auto;
+}
+
+.center-vh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.separator-v {
+  margin: 0 1rem;
+}
+
+.separator-h {
+  margin: 2rem auto;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  border: 0;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+
+  &:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    background-color: lighten($default-font-color, 30%);
+    height: 1px;
+  }
+}
+
+header, main { margin-bottom: 2.5rem; }
+
+a {
+  &, &:active, &:visited {
+    font-weight: $font-weight-semibold;
+    color: lighten($default-font-color, 10%);
+    text-decoration: none; 
+  }
+
+  &:hover {
+    color: $default-font-color;
+  }
 }

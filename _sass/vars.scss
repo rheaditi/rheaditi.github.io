@@ -1,5 +1,15 @@
-$default-line-height: 1.56;
+$font-weight-light    : 200;
+$font-weight-regular  : 400;
+$font-weight-semibold : 600;
+
+$default-line-height: 1.64;
 $default-font-size: 16px;
-$default-font-weight: 400;
+$default-font-weight: $font-weight-regular;
 $default-font-stack: Arial, Helvetica, sans-serif;
 $exo-font-stack: 'Exo 2', Arial, Helvetica, sans-serif;
+
+$text-default: #666;
+$default-font-color: $text-default;
+
+$bg-gradient-start: #ff9a9e;
+$bg-gradient-end  : #fad0c4;
