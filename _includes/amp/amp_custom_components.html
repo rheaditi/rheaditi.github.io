@@ -1,0 +1,16 @@
+<amp-font layout="nodisplay" font-family="Exo 2" timeout="3000" on-load-add-class="exo-font-loaded"></amp-font>
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+  {
+    "vars": {
+      "account": "{{ site.ga.trackingId }}"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      }
+    }
+  }
+</script>
+</amp-analytics>

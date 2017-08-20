@@ -9,7 +9,7 @@
     "alternateName": "Rhea Aditi Mohanty",
     "gender": "Female",
     "birthDate": "1993-11-15",
-    "url": "http://aditimohanty.com",
+    "url": "{{ site.url }}",
     "worksFor": {
       "@context" : "http://schema.org",
       "@type" : "Organization",
@@ -21,11 +21,11 @@
     },
     "jobTitle": "Front-End Engineer",
     "sameAs": [
-        "https://twitter.com/rheaditi",
-        "https://github.com/rheaditi",
-        "https://www.facebook.com/rheaditi",
-        "https://www.linkedin.com/in/aditimohanty",
-        "https://medium.com/@rheaditi"
+        "{{ site.social.twitter }}",
+        "{{ site.social.github }}",
+        "{{ site.social.facebook }}",
+        "{{ site.social.linkedin }}",
+        "{{ site.social.medium }}"
     ],
     "alumniOf": "PES Institute of Technology, Bangalore South Campus"
   }
@@ -34,7 +34,7 @@
   {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "{{ site.utl }}",
+    "url": "{{ site.url }}",
     "name": "{{ site.title }}",
     "author": {
       "@type": "Person",

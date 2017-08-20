@@ -8,3 +8,12 @@ body {
     font-family: $exo-font-stack;
   }
 }
+
+.center {
+  text-align: center;
+}
+
+.center-block {
+  display: inline-block;
+  margin: 0 auto;
+}
