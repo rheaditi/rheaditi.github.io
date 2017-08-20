@@ -1,9 +1,29 @@
 ---
 layout: default
 ---
-<div class="center">
-  <br />
-  <br />
-  <br />
-  <small>aditi anomita mohanty</small>
+<div class="container main-gradient">
+  <div class="card center-vh">
+    <header class="t-center">
+      <amp-img 
+        srcset="/img/aditimohanty.jpeg 1x" 
+        width="100" 
+        height="100" 
+        layout="responsive"
+        alt="@rheaditi on Twitter" 
+        class="mugshot">
+      </amp-img>
+      <h1 class="name">{{ site.entity.name }}</h1>
+    </header>
+    <main class="t-center">
+      <p class="t-light">
+         A female human from Bangalore, India - ❤s Javascript, video-games &amp; music.
+         Employed at <a class="nekkid" href="https://cleartax.in" title="Free Income Tax efiling in India: ClearTax | Upload your Form-16 to e-File Income Tax Returns">clearTax.in</a>.
+         Goes by <a class="nekkid" href="{{ site.social.twitter }}">@rheaditi</a> on the interwebs.
+      </p>
+    </main>
+    <hr class="separator-h" />
+    <footer class="t-center">
+      {% include components/social_icons.html %}
+    </footer> 
+  </div>
 </div>

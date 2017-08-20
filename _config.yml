@@ -1,6 +1,10 @@
 # Site settings
 # Variables accessible in the templates via {{ site.myvariable }}.
 title: "Aditi Mohanty | Front-End Engineer, Bangalore, India"
+entity: 
+  name: "Aditi Mohanty"
+  fullname: "Aditi Anomita Mohanty"
+
 description: "Aditi Mohanty (@rheaditi), a female human from Bangalore, India - ❤s Javascript, video-games & music. Employed at clearTax.in."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aditimohanty.com" # the base hostname & protocol for your site, e.g. http://example.com
