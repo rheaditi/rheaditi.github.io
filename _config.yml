@@ -1,9 +1,7 @@
 # Site settings
 # Variables accessible in the templates via {{ site.myvariable }}.
 title: "Aditi Mohanty | Front-End Engineer, Bangalore, India"
-description: > # this means to ignore newlines until "baseurl:"
-  Aditi Mohanty (@rheaditi), a female human from Bangalore, India - ❤s Javascript, video-Games & music! 
-  Employed at clearTax.in, making the financial lives of millions of Indians simple.
+description: "Aditi Mohanty (@rheaditi), a female human from Bangalore, India - ❤s Javascript, video-games & music. Employed at clearTax.in."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aditimohanty.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -13,9 +11,9 @@ social:
   facebook: "https://www.facebook.com/rheaditi"
   linkedin: "https://www.linkedin.com/in/aditimohanty"
   medium: "https://medium.com/@rheaditi"
+  handle: "@rheaditi"
 ga:
   trackingId: "UA-97738324-1"
-
 og:
   image:
     url: "/img/aditimohanty.jpeg"
