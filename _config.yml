@@ -1,10 +1,9 @@
 # Site settings
 # Variables accessible in the templates via {{ site.myvariable }}.
-title: "Aditi Mohanty | Front-End Developer, Bangalore, India"
+title: "Aditi Mohanty | Front-End Engineer, Bangalore, India"
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Aditi Mohanty (@rheaditi), a female human from Bangalore, India - ❤s Javascript, video-Games & music! 
+  Employed at clearTax.in, making the financial lives of millions of Indians simple.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aditimohanty.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -14,9 +13,11 @@ social:
   facebook: "https://www.facebook.com/rheaditi"
   linkedin: "https://www.linkedin.com/in/aditimohanty"
   medium: "https://medium.com/@rheaditi"
-
 ga:
   trackingId: "UA-97738324-1"
+
+profile_image: "/img/aditimohanty.jpeg"
+
 # Build settings
 markdown: kramdown
 # plugins:
