@@ -1,13 +1,19 @@
 # Site settings
 # Variables accessible in the templates via {{ site.myvariable }}.
 title: "Aditi Mohanty | Front-End Engineer, Bangalore, India"
-entity: 
+entity:
   name: "Aditi Mohanty"
   fullname: "Aditi Anomita Mohanty"
 
 description: "Aditi Mohanty (@rheaditi), a female human from Bangalore, India - ❤s Javascript, video-games & music. Employed at clearTax.in."
+keywords: >
+  Aditi Mohanty, Aditi Anomita Mohanty, rheaditi, rhea aditi, Rhea Aditi Mohanty, developer, web developer,
+  front end developer, software engineer, Bangalore, Bengaluru, India, Karnataka, Bhubaneshwar, Odisha, Orissa,
+  PESIT, PES Institute of Technology, PESSE, PESU,
+  UI, UX, User Interface, User Experience, Web, Designer, Developer, Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aditimohanty.com" # the base hostname & protocol for your site, e.g. http://example.com
+theme_color: "#ff9a9e"
 
 social:
   twitter: "https://twitter.com/rheaditi"
@@ -16,6 +22,17 @@ social:
   linkedin: "https://www.linkedin.com/in/aditimohanty"
   medium: "https://medium.com/@rheaditi"
   handle: "@rheaditi"
+  googleplus: "https://plus.google.com/107897063491970383192"
+  quora: "https://www.quora.com/profile/Aditi-Mohanty-1"
+  angellist: "https://angel.co/aditimohanty"
+  dribbble: "https://dribbble.com/rheaditi"
+  instagram: "https://www.instagram.com/rheaditi"
+  lastfm: "https://www.last.fm/user/rheaditi"
+  codepen: "https://codepen.io/rheaditi"
+  youtube: "https://www.youtube.com/channel/UC6FqIhJcioETW6xXzN6ILZA"
+  doselect: "https://doselect.com/@rheaditi"
+  soundcloud: "https://soundcloud.com/rheaditi"
+  deviantart: "https://rheaditi.deviantart.com"
 ga:
   trackingId: "UA-97738324-1"
 og:

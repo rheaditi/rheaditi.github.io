@@ -1,8 +1,11 @@
+---
+output: true
+---
 {
   "name": "Aditi Mohanty",
   "short_name": "@rheaditi",
   "background_color": "#ff9a9e",
-  "theme_color": "#ff9a9e",
+  "theme_color": "{{ site.theme_color }}",
   "description": "{{ site.description }}",
   "display": "standalone",
   "lang": "en-IN",
