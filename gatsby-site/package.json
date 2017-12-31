@@ -1,23 +1,20 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.145",
-    "gatsby-link": "^1.6.32",
-    "gatsby-plugin-react-helmet": "^1.0.8"
-  },
-  "keywords": [
-    "gatsby"
-  ],
+  "name": "aditimohanty.com",
+  "description": "Personal Website - Aditi Mohanty | aditimohanty.com",
+  "version": "2.0.0",
+  "author": "Aditi Anomita Mohanty <rheaditi@users.noreply.github.com>",
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.145",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^1.0.8"
   },
   "devDependencies": {
     "prettier": "^1.9.2"
