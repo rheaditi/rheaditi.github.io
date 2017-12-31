@@ -2,6 +2,7 @@
   "name": "aditimohanty.com",
   "description": "Personal Website - Aditi Mohanty | aditimohanty.com",
   "version": "2.0.0",
+  "private": true,
   "author": "Aditi Anomita Mohanty <rheaditi@users.noreply.github.com>",
   "license": "MIT",
   "main": "n/a",
@@ -17,6 +18,14 @@
     "gatsby-plugin-react-helmet": "^1.0.8"
   },
   "devDependencies": {
-    "prettier": "^1.9.2"
+    "prettier": "^1.9.2",
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1"
   }
 }
